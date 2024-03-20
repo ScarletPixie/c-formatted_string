@@ -16,6 +16,8 @@
 # include <stdarg.h>
 # include <stdlib.h>
 
-char	*get_format_string(char *format, ...);
+char	*get_fstring(const char *format, ...);
+char	*get_fstringb(const char *format, ...);
+char	*ft_sprintf(char *buffer, const char *format, ...);
 
 #endif

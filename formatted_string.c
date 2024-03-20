@@ -12,7 +12,7 @@
 
 #include "formatted_string.h"
 
-char	*get_format_string(char *format, ...)
+char	*get_fstring(const char *format, ...)
 {
 	char	*buffer;
 	size_t	index;
@@ -27,4 +27,14 @@ char	*get_format_string(char *format, ...)
 		if (format[index])
 			index++;
 	}
+}
+
+char	*get_fstringb(const char *format, ...)
+{
+	return (NULL);
+}
+
+char	*ft_sprintf(char *buffer, const char *format, ...)
+{
+	return (NULL);
 }
