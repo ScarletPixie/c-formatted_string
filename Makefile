@@ -5,7 +5,7 @@ DEBUG_FLAGS	=	-Wall -Wextra -ggdb3
 
 INCLUDE		=	./
 
-SRCS		=	formatted_string.c
+SRCS		=	get_nbr.c get_nbr2.c get_nbr3.c get_nbr4.c
 
 OBJS		=	${SRCS:.c=.o}
 DEBUG_OBJS	=	${OBJS:.o=_debug.o}
