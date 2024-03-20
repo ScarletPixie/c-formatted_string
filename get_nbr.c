@@ -6,7 +6,7 @@
 /*   By: paulhenr <paulhenr@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 10:11:21 by paulhenr          #+#    #+#             */
-/*   Updated: 2024/03/20 10:17:23 by paulhenr         ###   ########.fr       */
+/*   Updated: 2024/03/20 11:12:35 by paulhenr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ static int	get_ldigit_len(long nbr)
 	return ((nbr > 9 || nbr < -9) + get_ldigit_len(nbr / 10));
 }
 
-char	*get_longstr(long nbr)
+char	*get_long_str(long nbr)
 {
 	long	rem;
 	char	*nbstr;
@@ -54,7 +54,7 @@ char	*get_longstr(long nbr)
 	return (nbstr);
 }
 
-char	*get_intstr(int nbr)
+char	*get_int_str(int nbr)
 {
 	int		rem;
 	char	*nbstr;
